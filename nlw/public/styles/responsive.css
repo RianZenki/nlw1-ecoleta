@@ -1,0 +1,63 @@
+@media (max-width: 900px){
+    div#page-home{
+        background-position-x: 70vw;
+    }
+
+    div#page-home div.content{
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    div#page-home header a{
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    div#page-home main{
+        align-items: center;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 200px;
+    }
+
+
+
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+
+    #page-create-point .field-group .field{
+        margin-left:0px;
+    }
+
+    #page-create-point fieldset .items-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point form button{
+        margin: 40px 0 0 27px;
+    }
+
+}
+
+@media (min-width: 1700px){
+    div#page-home{
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 780px){
+    div#page-home{
+        background-position-y: 130px;
+    }
+}
